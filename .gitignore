@@ -1,0 +1,3 @@
+# Project exclude paths
+/my-project/dist/
+/my-project/node_modules/
