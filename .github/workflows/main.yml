@@ -17,6 +17,7 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: '12.x'
+    - run: cd webproject-patlak/my-project/
     - run: npm i # install dependencies; eg node_modules
     - run: npm install eslint -g -D
     - run: eslint --init
