@@ -26,6 +26,9 @@ document.write(
     '        <li>\n' +
     '          <a class="nav-link" href="buyfloppydisks.html"><h1 class="text-light">Floppy-Disks</h1></a>\n' +
     '        </li>\n' +
+    '        <li>\n' +
+    '          <a class="nav-link" href="contact.html"><h1 class="text-light">Contact</h1></a>\n' +
+    '        </li>\n' +
   '      </ul>\n' +
   '\n' +
   '\n' +
