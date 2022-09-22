@@ -18,6 +18,8 @@ jobs:
       with:
         node-version: '12.x'
     - run: cd my-project
+    - run: pwd
+    - run: ls -altr
     - run: npm i # install dependencies; eg node_modules
     - run: npm install eslint -g -D
     - run: eslint --init
