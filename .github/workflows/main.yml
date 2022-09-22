@@ -7,7 +7,9 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest # run ubuntu
-
+    defaults:
+      run:
+        working-directory: ./my-project
     steps:
     - uses: actions/checkout@v3 # checkout your repo - this is an official action provided by GitHub
       with:
@@ -17,7 +19,7 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: '12.x'
-    - run: npm --prefix my-project i # install dependencies; eg node_modules
+    - run: npm i # install dependencies; eg node_modules
     - run: npm install eslint -g -D
     - run: eslint --init
-    - run: npm --prefix my-project run build # run build
+    - run: npm run build # run build
