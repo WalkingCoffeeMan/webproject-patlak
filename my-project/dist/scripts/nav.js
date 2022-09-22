@@ -13,7 +13,7 @@ document.write(
   '\n' +
   '      <ul class="navbar-nav ms-auto text-center">\n' +
   '        <li>\n' +
-  '          <a class="nav-link" href="../index.html"><h1 class="text-light"> Home</h1></a>\n' +
+  '          <a class="nav-link" href="index.html"><h1 class="text-light"> Home</h1></a>\n' +
   '        </li>\n' +
   '        <li>\n' +
   '          <a class="nav-link" href="../pages/about.html"><h1 class="text-light">About</h1></a>\n' +
