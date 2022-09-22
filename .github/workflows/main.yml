@@ -17,10 +17,7 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: '12.x'
-    - run: cd my-project
-    - run: pwd
-    - run: ls -altr
     - run: npm i # install dependencies; eg node_modules
     - run: npm install eslint -g -D
     - run: eslint --init
-    - run: npm run build # run build
+    - run: npm --prefix my-project run build # run build
