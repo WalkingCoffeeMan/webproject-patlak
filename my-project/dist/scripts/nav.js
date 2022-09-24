@@ -19,10 +19,10 @@ document.write(
   '          <a class="nav-link" href="/webproject-patlak/pages/about.html"><h1 class="text-light">About</h1></a>\n' +
   '        </li>\n' +
   '        <li>\n' +
-  '          <a class="nav-link" href="/webproject-patlak/pages/services.html"><h1 class="text-light">Services</h1></a>\n' +
+  '          <a class="nav-link" href="pages/services.html"><h1 class="text-light">Services</h1></a>\n' +
   '        </li>\n' +
     '        <li>\n' +
-    '          <a class="nav-link" href="/webproject-patlak/pages/favepisode.html"><h1 class="text-light">Stage2-Attack</h1></a>\n' +
+    '          <a class="nav-link" href="/favepisode.html"><h1 class="text-light">Stage2-Attack</h1></a>\n' +
     '        </li>\n' +
     '        <li>\n' +
     '          <a class="nav-link" href="/webproject-patlak/pages/buyfloppydisks.html"><h1 class="text-light">Floppy-Disks</h1></a>\n' +
