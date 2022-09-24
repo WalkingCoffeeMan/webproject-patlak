@@ -29,7 +29,7 @@ function init()
         '<p id="boughtFloppies" class="text-white"></p>\n' +
         '<p class="text-white"> Floppy-Disks in your cart !</p>\n' +
         '<button onclick="removeCart()" id="removeButton" >Remove</button>' +
-        '<script src="../scripts/removeCart.js"></script>' +
+        '<script src="scripts/removeCart.js"></script>' +
         '</container>')
     ;
 }
