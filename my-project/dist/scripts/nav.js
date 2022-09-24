@@ -16,19 +16,19 @@ document.write(
   '          <a class="nav-link" href="index.html"><h1 class="text-light"> Home</h1></a>\n' +
   '        </li>\n' +
   '        <li>\n' +
-  '          <a class="nav-link" href="/pages/about.html"><h1 class="text-light">About</h1></a>\n' +
+  '          <a class="nav-link" href="/webproject-patlak/pages/about.html"><h1 class="text-light">About</h1></a>\n' +
   '        </li>\n' +
   '        <li>\n' +
-  '          <a class="nav-link" href="/pages/services.html"><h1 class="text-light">Services</h1></a>\n' +
+  '          <a class="nav-link" href="/webproject-patlak/pages/services.html"><h1 class="text-light">Services</h1></a>\n' +
   '        </li>\n' +
     '        <li>\n' +
-    '          <a class="nav-link" href="/pages/favepisode.html"><h1 class="text-light">Stage2-Attack</h1></a>\n' +
+    '          <a class="nav-link" href="/webproject-patlak/pages/favepisode.html"><h1 class="text-light">Stage2-Attack</h1></a>\n' +
     '        </li>\n' +
     '        <li>\n' +
-    '          <a class="nav-link" href="/pages/buyfloppydisks.html"><h1 class="text-light">Floppy-Disks</h1></a>\n' +
+    '          <a class="nav-link" href="/webproject-patlak/pages/buyfloppydisks.html"><h1 class="text-light">Floppy-Disks</h1></a>\n' +
     '        </li>\n' +
     '        <li>\n' +
-    '          <a class="nav-link" href="/pages/contact.html"><h1 class="text-light">Contact</h1></a>\n' +
+    '          <a class="nav-link" href="/webproject-patlak/pages/contact.html"><h1 class="text-light">Contact</h1></a>\n' +
     '        </li>\n' +
   '      </ul>\n' +
   '\n' +
