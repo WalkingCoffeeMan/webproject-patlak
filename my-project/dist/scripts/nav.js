@@ -1,7 +1,7 @@
 //init branch
 //test git push ci
 var prefix ="pages/";
-var pictureLink = "img/mrobot.png"
+var pictureLink = "img/"
 var scriptLink = "scripts/"
 if(document.location.href.includes("pages"))
 {
