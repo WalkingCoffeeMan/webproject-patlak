@@ -1,18 +1,22 @@
 //init branch
 //test git push ci
 var prefix ="pages/";
+var pictureLink = "img/mrobot.png"
+var scriptLink = "scripts/"
 if(document.location.href.includes("pages"))
 {
-    prefix ="../pages/"
+    prefix ="../pages/";
+    pictureLink = "../img/mrobot.jpg/";
+    scriptLink = "../scripts/floppydisks.js/";
 }
 console.log("your prefix is "+prefix);
-var link = "img/mrobot.png"
+
 document.write(
   '  <nav class="navbar navbar-expand-sm navbar-light">\n' +
   '    <a class="navbar-brand" href="#">\n' +
-  '      <img src="'+link+'" alt="MrRobot" width="300" height="240" class="pull-left">\n' +
+  '      <img src="'+pictureLink+'" alt="MrRobot" width="300" height="240" class="pull-left">\n' +
   '    </a>\n' +
-    '      <script src="scripts/floppydisks.js"></script>' +
+    '      <script src="'+scriptLink+'floppydisks.js"></script>' +
   '    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#toggleMobileMenu" aria-controls="toggleMobileMenu" aria-expanded="false" aria-label="Toggle navigation">\n' +
   '      <span class="navbar-toggler-icon"></span>\n' +
   '    </button>\n' +
