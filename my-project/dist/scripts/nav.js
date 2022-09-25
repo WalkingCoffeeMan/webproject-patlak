@@ -1,16 +1,7 @@
 //init branch
 //test git push ci
-var prefix ="";
+var prefix ="pages/";
 console.log("curently you are on this website: "+ document.location.href);
-if(document.location.href == "https://walkingcoffeeman.github.io/webproject-patlak/")
-{
-    prefix = "pages/";
-}
-else
-{
-    prefix = "/";
-}
-console.log("Prefix is "+ prefix);
 var link = "img/mrobot.png"
 document.write(
   '  <nav class="navbar navbar-expand-sm navbar-light">\n' +
