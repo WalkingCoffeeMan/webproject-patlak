@@ -3,9 +3,9 @@
 document.write(
   '  <nav class="navbar navbar-expand-sm navbar-light">\n' +
   '    <a class="navbar-brand" href="#">\n' +
-  '      <img src="img\\mrobot.png" alt="MrRobot" width="300" height="240" class="pull-left">\n' +
+  '      <img src="img/mrobot.png" alt="MrRobot" width="300" height="240" class="pull-left">\n' +
   '    </a>\n' +
-    '      <script src="/scripts/floppydisks.js"></script>' +
+    '      <script src="scripts/floppydisks.js"></script>' +
   '    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#toggleMobileMenu" aria-controls="toggleMobileMenu" aria-expanded="false" aria-label="Toggle navigation">\n' +
   '      <span class="navbar-toggler-icon"></span>\n' +
   '    </button>\n' +
