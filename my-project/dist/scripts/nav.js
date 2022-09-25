@@ -1,6 +1,10 @@
 //init branch
 //test git push ci
 var prefix ="pages/";
+if(document.location.href.includes("pages"))
+{
+    prefix ="/"
+}
 console.log("curently you are on this website: "+ document.location.href);
 var link = "img/mrobot.png"
 document.write(
