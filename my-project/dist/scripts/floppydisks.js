@@ -1,4 +1,4 @@
-var removeCartLink = "/scripts/";
+var removeCartLink = "scripts/";
 if(document.location.href.includes("pages"))
 {
     removeCartLink= "../scripts/";
@@ -28,7 +28,6 @@ if(localStorage.getItem("cartDisabled") != 1)
 }
 function init()
 {
-    console.log("you are insdsds");
     document.write('<container id="floppycart" class="align-content-center">\n' +
         '<p class="text-white">You have</p>\n' +
         '<p id="boughtFloppies" class="text-white"></p>\n' +
