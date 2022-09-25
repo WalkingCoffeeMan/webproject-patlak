@@ -1,9 +1,10 @@
 //init branch
 //test git push ci
+var link = "img/mrobot.png"
 document.write(
   '  <nav class="navbar navbar-expand-sm navbar-light">\n' +
   '    <a class="navbar-brand" href="#">\n' +
-  '      <img src="../webproject-patlak/img/mrobot.png" alt="MrRobot" width="300" height="240" class="pull-left">\n' +
+  '      <img src="'link''" alt="MrRobot" width="300" height="240" class="pull-left">\n' +
   '    </a>\n' +
     '      <script src="scripts/floppydisks.js"></script>' +
   '    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#toggleMobileMenu" aria-controls="toggleMobileMenu" aria-expanded="false" aria-label="Toggle navigation">\n' +
