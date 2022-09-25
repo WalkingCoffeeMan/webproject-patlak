@@ -5,7 +5,7 @@ if(document.location.href.includes("pages"))
 {
     prefix ="../pages/"
 }
-console.log("curently you are on this website: "+ document.location.href);
+console.log("your prefix is "+prefix);
 var link = "img/mrobot.png"
 document.write(
   '  <nav class="navbar navbar-expand-sm navbar-light">\n' +
