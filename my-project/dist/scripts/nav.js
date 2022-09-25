@@ -1,5 +1,14 @@
 //init branch
 //test git push ci
+var prefix ="";
+if(document.location.href == "https://walkingcoffeeman.github.io/webproject-patlak/")
+{
+    prefix = "pages/";
+}
+else
+{
+    prefix = "/";
+}
 var link = "img/mrobot.png"
 document.write(
   '  <nav class="navbar navbar-expand-sm navbar-light">\n' +
@@ -14,22 +23,22 @@ document.write(
   '\n' +
   '      <ul class="navbar-nav ms-auto text-center">\n' +
   '        <li>\n' +
-  '          <a class="nav-link" href="../index.html"><h1 class="text-light"> Home</h1></a>\n' +
+  '          <a class="nav-link" href="/"><h1 class="text-light"> Home</h1></a>\n' +
   '        </li>\n' +
   '        <li>\n' +
-  '          <a class="nav-link" href="pages/about.html"><h1 class="text-light">About</h1></a>\n' +
+  '          <a class="nav-link" href="'+prefix+'about.html"><h1 class="text-light">About</h1></a>\n' +
   '        </li>\n' +
   '        <li>\n' +
-  '          <a class="nav-link" href="pages/services.html"><h1 class="text-light">Services</h1></a>\n' +
+  '          <a class="nav-link" href="'+prefix+'services.html"><h1 class="text-light">Services</h1></a>\n' +
   '        </li>\n' +
     '        <li>\n' +
-    '          <a class="nav-link" href="pages/favepisode.html"><h1 class="text-light">Stage2-Attack</h1></a>\n' +
+    '          <a class="nav-link" href="'+prefix+'favepisode.html"><h1 class="text-light">Stage2-Attack</h1></a>\n' +
     '        </li>\n' +
     '        <li>\n' +
-    '          <a class="nav-link" href="pages/buyfloppydisks.html"><h1 class="text-light">Floppy-Disks</h1></a>\n' +
+    '          <a class="nav-link" href="'+prefix+'buyfloppydisks.html"><h1 class="text-light">Floppy-Disks</h1></a>\n' +
     '        </li>\n' +
     '        <li>\n' +
-    '          <a class="nav-link" href="pages/contact.html"><h1 class="text-light">Contact</h1></a>\n' +
+    '          <a class="nav-link" href="'+prefix+'contact.html"><h1 class="text-light">Contact</h1></a>\n' +
     '        </li>\n' +
   '      </ul>\n' +
   '\n' +
