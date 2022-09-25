@@ -1,6 +1,7 @@
 //init branch
 //test git push ci
 var prefix ="";
+console.log("curently you are on this website: "+ document.location.href);
 if(document.location.href == "https://walkingcoffeeman.github.io/webproject-patlak/")
 {
     prefix = "pages/";
