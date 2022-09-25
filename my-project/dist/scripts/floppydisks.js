@@ -3,6 +3,7 @@ if(document.location.href.includes("pages"))
 {
     removeCartLink= "../scripts/";
 }
+console.log("scripts link is "+removeCartLink+"removeCart.js");
 if(localStorage.getItem("cartDisabled") != 1)
 {
     if(localStorage.getItem("cart")!= null || localStorage.getItem("cart") != 0)
