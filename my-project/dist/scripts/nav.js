@@ -9,6 +9,7 @@ else
 {
     prefix = "/";
 }
+console.log("Prefix is "+ prefix);
 var link = "img/mrobot.png"
 document.write(
   '  <nav class="navbar navbar-expand-sm navbar-light">\n' +
@@ -23,7 +24,7 @@ document.write(
   '\n' +
   '      <ul class="navbar-nav ms-auto text-center">\n' +
   '        <li>\n' +
-  '          <a class="nav-link" href="/"><h1 class="text-light"> Home</h1></a>\n' +
+  '          <a class="nav-link" href="/webproject-patlak"><h1 class="text-light"> Home</h1></a>\n' +
   '        </li>\n' +
   '        <li>\n' +
   '          <a class="nav-link" href="'+prefix+'about.html"><h1 class="text-light">About</h1></a>\n' +
