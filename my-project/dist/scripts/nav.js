@@ -6,15 +6,15 @@ var scriptLink = "scripts/"
 if(document.location.href.includes("pages"))
 {
     prefix ="../pages/";
-    pictureLink = "../img/mrobot.jpg/";
-    scriptLink = "../scripts/floppydisks.js/";
+    pictureLink = "../img/";
+    scriptLink = "../scripts/";
 }
 console.log("your prefix is "+prefix);
 
 document.write(
   '  <nav class="navbar navbar-expand-sm navbar-light">\n' +
   '    <a class="navbar-brand" href="#">\n' +
-  '      <img src="'+pictureLink+'" alt="MrRobot" width="300" height="240" class="pull-left">\n' +
+  '      <img src="'+pictureLink+'mrobot.png" alt="MrRobot" width="300" height="240" class="pull-left">\n' +
   '    </a>\n' +
     '      <script src="'+scriptLink+'floppydisks.js"></script>' +
   '    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#toggleMobileMenu" aria-controls="toggleMobileMenu" aria-expanded="false" aria-label="Toggle navigation">\n' +
